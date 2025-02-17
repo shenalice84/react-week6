@@ -87,6 +87,7 @@ export default function CartPage() {
     try {
       await axios.post(`${BASE_URL}/v2/api/${API_PATH}/order`, data);
       reset();
+      getCart();
     } catch (error) {
       alert("結帳失敗");
     } finally {

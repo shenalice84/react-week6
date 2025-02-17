@@ -62,7 +62,7 @@ export default function ProductsPage() {
               <td>{product.title}</td>
               <td>
                 <del className="h6">原價 {product.origin_price} 元</del>
-                <div className="h5">特價 {product.origin_price}元</div>
+                <div className="h5">特價 {product.price}元</div>
               </td>
               <td>
                 <div className="btn-group btn-group-sm">
